@@ -20,12 +20,12 @@ public class GoogleTests {
 		System.setProperty("webdriver.gecko.driver", "D:\\geckodriver-v0.23.0-win64\\geckodriver.exe");
 
 		driver = new FirefoxDriver();
-
+         
 		driver.get("http://www.google.com");
-
+      
 		String actual = driver.getTitle();
 		String expected = "Google";
-
+         //comparing titles
 		Assert.assertEquals(actual, expected);
 	}
 	
