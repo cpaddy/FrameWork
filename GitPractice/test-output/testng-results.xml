@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15181" started-at="2019-05-19T22:57:49Z" finished-at="2019-05-19T22:58:05Z">
+  <suite name="Sanity" duration-ms="55966" started-at="2019-05-22T21:44:03Z" finished-at="2019-05-22T21:44:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15181" started-at="2019-05-19T22:57:49Z" finished-at="2019-05-19T22:58:05Z">
+    <test name="Test+CH" duration-ms="55966" started-at="2019-05-22T21:44:03Z" finished-at="2019-05-22T21:44:59Z">
       <class name="GoogleTests">
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:GoogleTests@66d2e7d9]" name="verifyTitle" duration-ms="9995" started-at="2019-05-19T18:57:49Z" description="verify the title of the page" finished-at="2019-05-19T18:57:59Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:GoogleTests@66d2e7d9]" name="verifyTitle" duration-ms="51112" started-at="2019-05-22T17:44:03Z" description="verify the title of the page" finished-at="2019-05-22T17:44:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="navigateToGmailPage()[pri:0, instance:GoogleTests@66d2e7d9]" name="navigateToGmailPage" duration-ms="5165" started-at="2019-05-19T18:57:59Z" description="navigate go Gmail and verify title" finished-at="2019-05-19T18:58:05Z">
+        <test-method status="PASS" signature="navigateToGmailPage()[pri:0, instance:GoogleTests@66d2e7d9]" name="navigateToGmailPage" duration-ms="4830" started-at="2019-05-22T17:44:54Z" description="navigate go Gmail and verify title" finished-at="2019-05-22T17:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToGmailPage -->
       </class> <!-- GoogleTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test+CH -->
+  </suite> <!-- Sanity -->
 </testng-results>
