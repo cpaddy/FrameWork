@@ -4,8 +4,8 @@
   <test name="Test+CH">
     <classes>
      
-      <class name="testng.programs.GoogleTests"/>
-      <class name="testng.programs.GoogleTests1"/>  
+      <class name="GoogleTests"/>
+      
     
     </classes>
   </test> <!-- Test -->
